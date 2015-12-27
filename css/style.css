@@ -1,0 +1,73 @@
+body {
+    background: #FFFFE0;
+	font-family: 'Microsoft Yahei', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+    }
+.wrapper{
+	width: 75%;
+	margin: 0 auto;
+    }
+.chapter{
+	background: #EEC591;
+}
+.header{
+	height: 50px;
+    background-image: url(/test/images/snow.jpg);
+	padding: 10px;
+	padding-left: 120px;
+	padding-right: 50px;
+	margin: 0;
+    }
+.headerLeft{
+    float:left;
+	height: 50px;
+	width: 150px;
+    }
+.headerLeft a {
+    display: block;
+    }
+.headerLeft img{
+    height: 50px;
+    width:150px;
+    }
+.headerRight{
+    float:right;
+    margin-right: 80px;
+    width:60%;
+    }
+.headerRight ul{
+    padding-top: 10px;
+	margin:0;
+	text-align:center;
+	}
+.headerRight ul li{
+	display:inline-block;
+	}
+.headerRight ul li a {
+	font-size: 18px;
+	color: #ffffff;;
+	font-weight:400;
+	margin:0 16px;
+	text-decoration: none;
+	}
+.headerRight ul li a:hover,.headerRight ul li a.active {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 2px;
+    }
+.chname{
+	font-size: 20px;
+}
+.footer{
+    background-image: url(/test/images/snow.jpg);
+    padding: 32px 0;
+    }
+.footer p{
+    margin:0;
+    font-size:16px;
+    color:#ffffff;
+    text-align:center;
+    }
+.footer p a{
+    color:#ffffff;
+    }
